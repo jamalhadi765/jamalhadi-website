@@ -109,8 +109,8 @@ function playGame(playerMove) {
   document.querySelector('.js-moves')
     .innerHTML = `
       Kamu
-        <img class="moves-icon2" src="images/${playerMove}-emoji.png">
-        <img class="moves-icon2" src="images/${computerMove}-emoji.png">
+        <img class="moves-icon2" src="${playerMove}-emoji.png">
+        <img class="moves-icon2" src="${computerMove}-emoji.png">
       Komputer
     `
   
@@ -184,4 +184,5 @@ document.querySelector('.js-reset-score')
 document.querySelector('.js-autoPlay')
   .addEventListener('click', () => {
     autoPlay();
+
   })
