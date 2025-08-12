@@ -16,6 +16,8 @@ marquee{
   background-color: darkgreen;
 }
 .note{
+  margin-left: 50px;
+  margin-right: 50px;
   font-size: 27px;
 }
 
@@ -71,6 +73,7 @@ marquee{
   background-color: red;
 
 }
+
 
 
 
