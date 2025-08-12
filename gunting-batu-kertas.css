@@ -15,6 +15,9 @@ marquee{
   font-size: 30px;
   background-color: darkgreen;
 }
+.note{
+  font-size: 27px;
+}
 
 .moves-icon{
   height: 70px;
@@ -68,6 +71,7 @@ marquee{
   background-color: red;
 
 }
+
 
 
 
